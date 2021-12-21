@@ -54,7 +54,7 @@ extension ReferenceiOSUITestBase {
         }
     }
     
-    func AndIShouldResultEmpy(){
+    func AndIShouldResultEmpty(){
         XCTContext.runActivity(named: "And I should see result empty"){ _ in
             let result = LoginScreen.resultLabel.element
             XCTAsyncAssertFalse(result)

@@ -26,7 +26,7 @@ class LoginTest: ReferenceiOSUITestBase{
         andIEnterPassword(password: "1234qwer")
         whenISubmit()
         thenIShouldSeeErrorMessage(message: "Please provide valid credentials")
-        AndIShouldResultEmpy()
+        AndIShouldResultEmpty()
     }
     
     func testErrorFlowWithValidEmailInValidPassword(){
@@ -35,6 +35,6 @@ class LoginTest: ReferenceiOSUITestBase{
         andIEnterPassword(password: "12er")
         whenISubmit()
         thenIShouldSeeErrorMessage(message: "Please provide valid credentials")
-        AndIShouldResultEmpy()
+        AndIShouldResultEmpty()
     }
 }
