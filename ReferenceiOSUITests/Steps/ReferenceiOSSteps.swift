@@ -9,6 +9,7 @@
 import Foundation
 import XCTest
 
+//Contains all the step definitions
 extension ReferenceiOSUITestBase {
     
     func givenAppIsReady(){
@@ -36,10 +37,12 @@ extension ReferenceiOSUITestBase {
             LoginScreen.submitButton.element.tap()
         }
     }
-    func thenIShouldSeeResult(){
-        XCTContext.runActivity(named: "Then I Should See Result"){ _ in
+    func thenIShouldSeeResultAsCurrency(){
+        XCTContext.runActivity(named: "Then I Should See Result shown as currency"){ _ in
             let result = LoginScreen.resultLabel.element
+            //Using AsyncAssert to wait till the element is visible
             XCTAsyncAssert(result)
+            XCTAssertTrue(isCurrencyValid(result.label))
         }
     }
 }

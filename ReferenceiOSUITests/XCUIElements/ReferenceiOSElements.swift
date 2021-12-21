@@ -9,6 +9,8 @@
 import Foundation
 import XCTest
 
+//declaring all the elements of the screen and returning the element when being called
+//Also when accessibilityIdentifier changes, we just need to change it here without chaning everywhere in the test
 enum LoginScreen: String {
     
     case emailTextField = "emailTextField"

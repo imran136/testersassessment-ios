@@ -15,6 +15,7 @@
 		05D03C98224BBCCC005F6F05 /* CurrencyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */; };
 		05D03C9A224BBDC2005F6F05 /* CurrencyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */; };
 		B56F7B1E27715DD100F980AB /* ReferenceiOSUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F7B1D27715DD100F980AB /* ReferenceiOSUITestBase.swift */; };
+		B57BACAD2771E0DA00DDC6F9 /* ReferenceiOSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BACAC2771E0DA00DDC6F9 /* ReferenceiOSUtil.swift */; };
 		B5D09BC02771CD72002EDC0F /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D09BBF2771CD72002EDC0F /* LoginTest.swift */; };
 		B5D09BC22771D891002EDC0F /* ReferenceiOSSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D09BC12771D891002EDC0F /* ReferenceiOSSteps.swift */; };
 		B5D09BC42771D8C5002EDC0F /* ReferenceiOSElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D09BC32771D8C5002EDC0F /* ReferenceiOSElements.swift */; };
@@ -52,6 +53,7 @@
 		05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelper.swift; sourceTree = "<group>"; };
 		05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelperTests.swift; sourceTree = "<group>"; };
 		B56F7B1D27715DD100F980AB /* ReferenceiOSUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceiOSUITestBase.swift; sourceTree = "<group>"; };
+		B57BACAC2771E0DA00DDC6F9 /* ReferenceiOSUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceiOSUtil.swift; sourceTree = "<group>"; };
 		B5D09BBF2771CD72002EDC0F /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		B5D09BC12771D891002EDC0F /* ReferenceiOSSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceiOSSteps.swift; sourceTree = "<group>"; };
 		B5D09BC32771D8C5002EDC0F /* ReferenceiOSElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceiOSElements.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		05D03C88224BA0FD005F6F05 /* ReferenceiOSUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B57BACAE2771E8F600DDC6F9 /* Util */,
 				B5D09BC82771D9CC002EDC0F /* Features */,
 				B5D09BC72771D9BA002EDC0F /* Steps */,
 				B5D09BC62771D984002EDC0F /* XCUIElements */,
@@ -135,6 +138,14 @@
 				05D03C8B224BA0FD005F6F05 /* Info.plist */,
 			);
 			path = ReferenceiOSUITests;
+			sourceTree = "<group>";
+		};
+		B57BACAE2771E8F600DDC6F9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B57BACAC2771E0DA00DDC6F9 /* ReferenceiOSUtil.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		B5D09BC52771D96C002EDC0F /* Base */ = {
@@ -320,6 +331,7 @@
 			files = (
 				B56F7B1E27715DD100F980AB /* ReferenceiOSUITestBase.swift in Sources */,
 				B5D09BC02771CD72002EDC0F /* LoginTest.swift in Sources */,
+				B57BACAD2771E0DA00DDC6F9 /* ReferenceiOSUtil.swift in Sources */,
 				B5D09BC22771D891002EDC0F /* ReferenceiOSSteps.swift in Sources */,
 				B5D09BC42771D8C5002EDC0F /* ReferenceiOSElements.swift in Sources */,
 			);

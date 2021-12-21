@@ -9,6 +9,7 @@
 import Foundation
 import XCTest
 
+//Contains all the test cases for login screen
 class LoginTest: ReferenceiOSUITestBase{
     
     func testHappyFlowWithValidEmailValidPassword(){
@@ -16,6 +17,6 @@ class LoginTest: ReferenceiOSUITestBase{
         andIEnterEmail(email: "avalidemail@valid.com")
         andIEnterPassword(password: "1234qwer")
         whenISubmit()
-        thenIShouldSeeResult()
+        thenIShouldSeeResultAsCurrency()
     }
 }
