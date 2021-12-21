@@ -22,11 +22,19 @@ extension ReferenceiOSUITestBase{
             return false
     }
     
-    //AsyncAssert method to wait upto 10 second till the element is there
+    //AsyncAssert method to wait upto 3 second till the element is there
     func XCTAsyncAssert(_ element: XCUIElement){
-        let isElementExist = element.waitForExistence(timeout: 10)
+        let isElementExist = element.waitForExistence(timeout: 3)
         if isElementExist{
             XCTAssertTrue(element.exists)
+        }
+    }
+    
+    //AsyncAssertFalse method to wait upto 3 second to verify the element is not there
+    func XCTAsyncAssertFalse(_ element: XCUIElement){
+        let isElementExistNot = element.waitForExistence(timeout: 3)
+        if isElementExistNot{
+            XCTAssertFalse(element.exists)
         }
     }
     
