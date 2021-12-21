@@ -12,7 +12,6 @@
 		05D03C6F224BA0FB005F6F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D03C6D224BA0FB005F6F05 /* Main.storyboard */; };
 		05D03C71224BA0FD005F6F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D03C70224BA0FD005F6F05 /* Assets.xcassets */; };
 		05D03C74224BA0FD005F6F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D03C72224BA0FD005F6F05 /* LaunchScreen.storyboard */; };
-		05D03C8A224BA0FD005F6F05 /* ReferenceiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C89224BA0FD005F6F05 /* ReferenceiOSUITests.swift */; };
 		05D03C98224BBCCC005F6F05 /* CurrencyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */; };
 		05D03C9A224BBDC2005F6F05 /* CurrencyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */; };
 		B56F7B1E27715DD100F980AB /* ReferenceiOSUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F7B1D27715DD100F980AB /* ReferenceiOSUITestBase.swift */; };
@@ -49,7 +48,6 @@
 		05D03C7A224BA0FD005F6F05 /* ReferenceiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReferenceiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D03C80224BA0FD005F6F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D03C85224BA0FD005F6F05 /* ReferenceiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReferenceiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		05D03C89224BA0FD005F6F05 /* ReferenceiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceiOSUITests.swift; sourceTree = "<group>"; };
 		05D03C8B224BA0FD005F6F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelper.swift; sourceTree = "<group>"; };
 		05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelperTests.swift; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 				B5D09BC72771D9BA002EDC0F /* Steps */,
 				B5D09BC62771D984002EDC0F /* XCUIElements */,
 				B5D09BC52771D96C002EDC0F /* Base */,
-				05D03C89224BA0FD005F6F05 /* ReferenceiOSUITests.swift */,
 				05D03C8B224BA0FD005F6F05 /* Info.plist */,
 			);
 			path = ReferenceiOSUITests;
@@ -323,7 +320,6 @@
 			files = (
 				B56F7B1E27715DD100F980AB /* ReferenceiOSUITestBase.swift in Sources */,
 				B5D09BC02771CD72002EDC0F /* LoginTest.swift in Sources */,
-				05D03C8A224BA0FD005F6F05 /* ReferenceiOSUITests.swift in Sources */,
 				B5D09BC22771D891002EDC0F /* ReferenceiOSSteps.swift in Sources */,
 				B5D09BC42771D8C5002EDC0F /* ReferenceiOSElements.swift in Sources */,
 			);
