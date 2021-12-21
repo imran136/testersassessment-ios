@@ -15,6 +15,7 @@
 		05D03C8A224BA0FD005F6F05 /* ReferenceiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C89224BA0FD005F6F05 /* ReferenceiOSUITests.swift */; };
 		05D03C98224BBCCC005F6F05 /* CurrencyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */; };
 		05D03C9A224BBDC2005F6F05 /* CurrencyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */; };
+		B56F7B1E27715DD100F980AB /* ReferenceiOSUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F7B1D27715DD100F980AB /* ReferenceiOSUITestBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		05D03C8B224BA0FD005F6F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelper.swift; sourceTree = "<group>"; };
 		05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelperTests.swift; sourceTree = "<group>"; };
+		B56F7B1D27715DD100F980AB /* ReferenceiOSUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceiOSUITestBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			children = (
 				05D03C89224BA0FD005F6F05 /* ReferenceiOSUITests.swift */,
 				05D03C8B224BA0FD005F6F05 /* Info.plist */,
+				B56F7B1D27715DD100F980AB /* ReferenceiOSUITestBase.swift */,
 			);
 			path = ReferenceiOSUITests;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56F7B1E27715DD100F980AB /* ReferenceiOSUITestBase.swift in Sources */,
 				05D03C8A224BA0FD005F6F05 /* ReferenceiOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
