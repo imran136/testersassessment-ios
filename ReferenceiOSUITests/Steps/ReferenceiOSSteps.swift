@@ -39,7 +39,7 @@ extension ReferenceiOSUITestBase {
     func thenIShouldSeeResult(){
         XCTContext.runActivity(named: "Then I Should See Result"){ _ in
             let result = LoginScreen.resultLabel.element
-            XCTAssertTrue(result.exists)
+            XCTAsyncAssert(result)
         }
     }
 }
