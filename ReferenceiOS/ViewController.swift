@@ -10,6 +10,8 @@ import UIKit
 import Foundation
 
 class ViewController: UIViewController {
+    
+    // Making sure all the elements have accessibilityIdentifier increase the testability
 
     @IBOutlet weak var emailTextField: UITextField!{
         didSet {
